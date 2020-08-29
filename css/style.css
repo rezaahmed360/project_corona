@@ -1,0 +1,369 @@
+/* ==== Navigation Section ==== */
+#navigation .header-top-logo {
+  width: 220px; }
+  #navigation .header-top-logo .strong {
+    border-left: 2px solid #e6e6e6;
+    margin: 10px 15px;
+    font-weight: 700;
+    height: 25.6px; }
+
+#navigation .header-top-menu li {
+  list-style: none;
+  border-right: 1px solid #ddd;
+  padding: 0 5px;
+  display: inline-block; }
+  #navigation .header-top-menu li a {
+    color: #ef3a41;
+    font-size: 20px; }
+  #navigation .header-top-menu li span {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: 700; }
+
+#navigation .header-top-menu .strong {
+  border-left: 2px solid #e6e6e6;
+  margin: 10px 15px;
+  font-weight: 700;
+  height: 25.6px; }
+  #navigation .header-top-menu .strong img {
+    vertical-align: middle; }
+
+#navigation a {
+  text-decoration: none;
+  color: #212121; }
+
+.container, .container-sm, .container-md, .container-lg, .container-x {
+  max-width: 1210px; }
+
+/* ==== Home Section ==== */
+#home {
+  background: url(../img/banner-bg.jpg);
+  height: auto; }
+  #home .blink-me {
+    animation: blinker 2s ease-in-out infinite; }
+
+@keyframes blinker {
+  50% {
+    opacity: .5; } }
+  #home .carousel-indicators {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px; }
+    #home .carousel-indicators li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%; }
+
+/* ==== Scroll Section ==== */
+#scroll_section .scroll-header {
+  background: #ed1c24;
+  color: #fff;
+  height: 30px;
+  width: 225px;
+  padding: 0 20px;
+  font-size: 10pt;
+  line-height: 30px;
+  font-family: Hind_Siliguri;
+  font-weight: 700; }
+
+#scroll_section .scroll-text {
+  width: calc(100% - 200px);
+  background: #e6e7e8;
+  height: 30px;
+  font-family: SolaimanLipi;
+  color: #000;
+  line-height: 32px;
+  padding: 0 20px;
+  font-size: 12pt; }
+
+#scroll_section .animate {
+  animation: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite; }
+
+@keyframes example {
+  0% {
+    color: red; }
+  100% {
+    color: #fff; } }
+
+/* ==== Corona Update Section ==== */
+#corona-update .h2-title {
+  color: #009444;
+  font-size: 24px;
+  font-weight: 700; }
+
+#corona-update .time {
+  font-size: 18px;
+  color: #00a79d;
+  margin-top: 18px; }
+
+#corona-update .time2 {
+  font-size: 18px;
+  color: red;
+  margin-top: 18px; }
+
+#corona-update .time3 {
+  font-size: 18px;
+  color: #8dc63f;
+  margin-top: 18px; }
+
+#corona-update .time4 {
+  font-size: 18px;
+  color: #27AAE1;
+  margin-top: 18px; }
+
+#corona-update .fa-update i {
+  color: #fc5335;
+  font-size: 20px;
+  transition: .2s linear; }
+
+#corona-update .fa-update:hover i {
+  color: #333; }
+
+#corona-update .button_flex {
+  background: #61D5BD;
+  padding: 15px 10px;
+  border-radius: 3px; }
+  #corona-update .button_flex a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px; }
+    #corona-update .button_flex a i {
+      font-size: 24px; }
+
+#corona-update .button_flex2 {
+  background: #8DC63F;
+  padding: 15px 5px;
+  border-radius: 3px; }
+  #corona-update .button_flex2 a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px; }
+    #corona-update .button_flex2 a i {
+      font-size: 24px; }
+
+#corona-update .button_flex3 {
+  background: #EC971F;
+  padding: 15px 10px;
+  border-radius: 3px; }
+  #corona-update .button_flex3 a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s linear; }
+    #corona-update .button_flex3 a i {
+      font-size: 24px; }
+
+#corona-update .button_flex3:hover a {
+  color: #fff; }
+
+/* ==== Video ==== */
+#video {
+  background: linear-gradient(90deg, #4c5cba 0%, #2d9edb 35%, #65279f 100%); }
+  #video h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff; }
+    #video h2 span {
+      color: #04fb93; }
+  #video .corona-update {
+    width: 570px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    margin: 10px auto;
+    background: #000;
+    transform: translate3d(0, 0, 0); }
+    #video .corona-update .corona-update-title {
+      font-size: 17px;
+      padding: 5px; }
+  #video .corona-update-box {
+    width: 270px;
+    border-radius: 10px;
+    background: #000;
+    transform: translate3d(0, 0, 0); }
+    #video .corona-update-box .corona-update-title-box {
+      font-size: 16px;
+      padding: 5px; }
+  #video a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .2s linear; }
+    #video a span {
+      background: green;
+      padding: 3px;
+      border-radius: 40%; }
+  #video a:hover {
+    color: #111; }
+
+/* ==== Others ==== */
+#others .h2-title {
+  color: #009444;
+  font-size: 22px;
+  font-weight: 700; }
+
+#others .h3-subtitle {
+  font-size: 18px;
+  font-weight: 700; }
+
+#others a {
+  text-decoration: none; }
+
+#others .telimedicine {
+  position: relative;
+  border: 1px solid #f2bd83;
+  border-bottom: 7px solid #f2bd83;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 35px 15px;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 25px;
+  display: flex; }
+  #others .telimedicine img {
+    height: 58px; }
+  #others .telimedicine span {
+    font-weight: 700;
+    color: #333; }
+  #others .telimedicine .help-badge {
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    border: 1px solid #11111147;
+    border-radius: 5px;
+    padding: 0 2px;
+    color: #00776d;
+    font-size: 14pt;
+    font-weight: 700;
+    height: 28px;
+    min-width: 28px !important;
+    text-align: center; }
+
+#others .col-lg-6 {
+  position: relative; }
+  #others .col-lg-6 a:nth-child(2) {
+    position: absolute;
+    bottom: 23%;
+    left: 50%; }
+
+#others .col-lg-6:nth-child(4) {
+  position: relative; }
+  #others .col-lg-6:nth-child(4) a:nth-child(2) {
+    position: absolute;
+    bottom: 28%;
+    left: 45%;
+    text-decoration: none;
+    background: #009444;
+    color: #fff;
+    font-size: 10px;
+    padding: 8px 12px;
+    border-radius: 3px; }
+
+#others .education button {
+  background: #C9302C;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px; }
+
+#others .probash {
+  background: #009444;
+  border-radius: 5px; }
+  #others .probash span {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.2rem; }
+
+#others .probashi-left {
+  height: 250px;
+  width: 280px;
+  border: 1px solid #fbb040;
+  border-bottom: 7px solid #fbb040;
+  border-top-left-radius: 5px;
+  display: inline-block; }
+  #others .probashi-left img {
+    margin-left: 40px;
+    margin-top: 5px; }
+
+#others .probashi-right {
+  height: 250px;
+  width: 280px;
+  border: 1px solid #fbb040;
+  border-bottom: 7px solid #fbb040;
+  border-top-right-radius: 5px;
+  display: inline-block; }
+  #others .probashi-right img {
+    margin-left: 40px;
+    margin-top: 5px; }
+
+#others .Data_Section img {
+  transition: 0.5s; }
+
+#others .Data_Section img:hover {
+  opacity: .7; }
+
+/* ==== Doctor ==== */
+#doctor {
+  background: #f7f7f7; }
+  #doctor h4 {
+    color: #f7941e;
+    font-size: 13pt;
+    font-weight: 700; }
+  #doctor p {
+    font-size: 0.8rem;
+    font-weight: 700; }
+  #doctor .app {
+    font-size: 0.9rem; }
+  #doctor .footer-buttons button {
+    padding: 8px 40px;
+    border: none;
+    background: linear-gradient(to right, #27a8e1, #5842ae);
+    color: #fff;
+    margin: 0 5px; }
+  #doctor .footer-buttons button:last-child {
+    background: linear-gradient(to right, #8cc63e, #009444); }
+  #doctor .appoinment {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 15px; }
+    #doctor .appoinment button {
+      padding: 8px 40px;
+      border: none;
+      background: linear-gradient(to right, #27a8e1, #5842ae);
+      color: #fff; }
+  #doctor .nibondhon {
+    border: 1px solid #3578E5;
+    border-bottom: 7px solid #3578E5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 35px 15px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 15px; }
+    #doctor .nibondhon button {
+      background: #5BC0DE;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 0.9rem; }
+
+/* ==== Footer ==== */
+#footer .footer-left li {
+  display: inline;
+  margin: 0 5px; }
+
+#footer .footer-right li {
+  display: inline;
+  margin: 0 5px; }
+
+#footer p {
+  font-size: 1.2rem; }
+
+#footer .footer-logo {
+  height: 42px; }
+
+@media (max-width: 991px) {
+  #navigation .header-top-menu li {
+    border: none; } }
